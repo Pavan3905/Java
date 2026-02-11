@@ -1,10 +1,8 @@
 /*Java Program to Demonstrate Arithmatic Operators */
 import java.util.*;
-
 public class Calculator{
     public static void main(String[] args){
         int choose, a, b;
-
         Scanner sc = new Scanner(System.in);
 
         do{ 
@@ -15,31 +13,25 @@ public class Calculator{
             if(choose > 0 && choose <6){
                 System.out.print("\nEnter first number: ");
                 a = sc.nextInt();
-
                 System.out.print("Enter second number: ");
                 b = sc.nextInt();
-
+                
                 switch(choose) {
                     case 1:
                         System.out.println("Sum is    : " + (a+b) + "\n");
                         break;
-                
                     case 2:
                         System.out.println("Difference is    : " + (a-b) + "\n");
                         break;
-
                     case 3:
                         System.out.println("Product is   : " + (a*b) + "\n");
                         break;
-
                     case 4:
                         System.out.println("Quotient is    : " + (a/b) + "\n");
                         break;
-
                     case 5:
                         System.out.println("Remainder is : " + (a%b) + "\n");
                         break;
-                        
                     default:
                         break;
                 }
@@ -49,8 +41,6 @@ public class Calculator{
                 System.out.println("Enter Proper Choice\n");
             }
         }while(choose != 6);
-        
         sc.close();
     }
-
 }
