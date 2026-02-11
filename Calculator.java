@@ -7,7 +7,7 @@ public class Calculator{
 
         Scanner sc = new Scanner(System.in);
 
-        do{
+        do{ 
             System.out.println("(1) Addition\n(2) Substraction\n(3) Multiplication\n(4) Division\n(5) Modulo\n(6) Exit\n");
             System.out.print("Enter your Choice: ");
             choose = sc.nextInt();
@@ -33,7 +33,7 @@ public class Calculator{
                         break;
 
                     case 4:
-                        System.out.println("Div is    : " + (a/b) + "\n");
+                        System.out.println("Quotient is    : " + (a/b) + "\n");
                         break;
 
                     case 5:
@@ -52,4 +52,5 @@ public class Calculator{
         
         sc.close();
     }
+
 }
