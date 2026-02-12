@@ -17,9 +17,9 @@ class Addition{
     }
 }
 
-class Substraction{
+class Subtraction{
     static void difference(Scanner sc){
-        System.out.print("Enter how many numbers need to Substract : ");
+        System.out.print("Enter how many numbers need to Subtract : ");
         int n = sc.nextInt();
         double[] a = new double[n];
         System.out.println("Enter Numbers One By One");
@@ -79,7 +79,7 @@ class Modulo{
         if(b == 0){
             System.out.println("Dividing By 0 is Undefined");
         }else{
-            System.out.println("Quotient is --> " + (a % b));
+            System.out.println("Remainder is --> " + (a % b));
         }
     }
 }
@@ -101,7 +101,7 @@ public class Calculator_02{
                         Addition.sum(sc);
                         break;
                     case 2:
-                        Substraction.difference(sc);
+                        Subtraction.difference(sc);
                         break;
                     case 3:
                         Multiplication.product(sc);
