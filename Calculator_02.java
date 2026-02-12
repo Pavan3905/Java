@@ -90,7 +90,7 @@ public class Calculator_02{
         Scanner sc = new Scanner(System.in);
 
         do{
-            System.out.println("\nCALCULATOR\n(1) Addition\n(2) Substraction\n(3) Multiplication\n(4) Division\n(5) Modulo\n(6) Exit\n");
+            System.out.println("\nCALCULATOR\n(1) Addition\n(2) Subtraction\n(3) Multiplication\n(4) Division\n(5) Modulo\n(6) Exit\n");
             System.out.print("Enter your Choice: ");
             choose = sc.nextInt();
 
@@ -124,3 +124,4 @@ public class Calculator_02{
         sc.close();
     }
 }
+
