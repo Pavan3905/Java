@@ -1,6 +1,6 @@
 /*Java Program to Demonstrate Arithmatic Operators */
 import java.util.*;
-public class Calculator{
+public class Calculator_01{
     public static void main(String[] args){
         int choose, a, b;
         Scanner sc = new Scanner(System.in);
@@ -44,3 +44,4 @@ public class Calculator{
         sc.close();
     }
 }
+
